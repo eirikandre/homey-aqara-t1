@@ -1,0 +1,27 @@
+{
+  "id": "no.eidsa.aqara-t1",
+  "version": "1.0.0",
+  "compatibility": ">=10.0.0",
+  "sdk": 3,
+  "platforms": ["local"],
+  "name": {
+    "en": "Aqara T1",
+    "no": "Aqara T1"
+  },
+  "description": {
+    "en": "Know when doors and windows open with the Aqara Door & Window Sensor T1.",
+    "no": "Få vite når dører og vinduer åpnes med Aqara dør- og vindussensor T1."
+  },
+  "category": ["security"],
+  "brandColor": "#1A73E8",
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Eirik Eidså"
+  },
+  "support": "https://github.com/eeidsa/homey-aqara-t1/issues"
+}

@@ -1,0 +1,54 @@
+{
+  "name": {
+    "en": "Door & Window Sensor T1",
+    "no": "Dør- og vindussensor T1"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_contact",
+    "measure_battery",
+    "alarm_battery"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "energy": {
+    "batteries": [
+      "CR1632"
+    ]
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "LUMI"
+    ],
+    "productId": [
+      "lumi.magnet.agl02"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          3,
+          1280
+        ],
+        "bindings": []
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/icon.svg",
+      "instruction": {
+        "en": "Press and hold the reset button on the sensor for about 5 seconds until the blue light blinks.",
+        "no": "Hold inne reset-knappen på sensoren i ca. 5 sekunder til det blå lyset blinker."
+      }
+    }
+  }
+}
